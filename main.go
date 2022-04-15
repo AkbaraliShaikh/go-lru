@@ -17,3 +17,10 @@ func main() {
 	fmt.Println(lru.Get(3))
 	fmt.Println(lru.Get(4))
 }
+
+// output
+// 1
+// -1
+// -1
+// 3
+// 4
